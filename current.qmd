@@ -1,0 +1,168 @@
+---
+title: "Current Needs"
+format: html
+---
+
+![](assets/evt_ag_ur.jpg){style="float:right; margin-left: 5%; fig-align:right; width:45%;" fig-alt="\"Needed mean fire return interval. "}
+
+**The health and quality of Missouri’s ecosystems depend on the responsible and consistent use of prescribed fire.** The Missouri Fire Assessment finds that we need to be burning **2,635,008** acres statewide per year at the minimum in order to maintain existing landscapes in their current condition and improve ecosystem health and function. Our ecosystems have been harmed by years of past fire suppression, however, prescribed fire can be used to heal them by replicating historical trends.
+
+Prescribed fire has many benefits for landowners and conservationists, like preserving and improving wildlife habitats, increasing biodiversity and managing invasive species. Additionally, prescribed burns decrease fuel loads, minimizing the risk of wildfires in forests and woodlands, which also lessens the potential for devastating impacts to infrastructure and communities. Missouri, in particular, has numerous ecosystem types that are fire adapted, meaning they have evolved in the presence of frequent fires and now rely on them to remain healthy and vibrant (Missouri CSS, 2022).
+
+## Ideal annual acres of fire per county
+
+**Below we present the ideal number of acres of fire each year from the Missouri Department of Conservation (MDC)** for the remaining non-agricultural, undeveloped lands in Missouri. To do this, we first tallied the amount of land covered by each ecosystem per county, then multiplied by the minimum and maximum probability it would burn in any one year. These estimates were totaled per county for the map below. The map depicts these very conservative estimates of the minimum and maximum values. You can click on each county to see the minimum and maximum acreage that should be burned in that county.
+
+Example calculation for a 1,000 acre ecosystem with a 5 year minimum Mean Fire Return Interval (MFRI):
+
+<br>
+
+$$
+5yr MFRI =1/5= AnnualProbability = 0.2
+$$
+
+$$
+AnnualAcresBurned = 1,000*0.2 = 200
+$$ <br>
+
+This map depicts the minimum and maximum acres of land that should be burned in order to replicate historical trends, and restore the landscapes that have spent millennia adapting to recurring fires. Click on any county to get the county name, total minimum and maximum acres to burn in that county and estimated acres of each ecosystem type that should be burned based on their historical needs.
+
+```{r fire needs map, warning=FALSE, message=FALSE, echo=FALSE, out.height=600}
+## load packages and data -----
+
+library(htmlwidgets)
+library(leaflet)
+library(scales)
+library(sf)
+library(tidyverse)
+
+
+
+# read in raw data to explore
+cntys_min_max_raw <- st_read("data/cntys_min_max_mnad.shp", quiet = TRUE)
+
+# read in ecosystems data to add fire min acres per ecosystem per county
+cntys_ecos_fire_min_acres <- read.csv("data/cntys_ecos_min_fire_acres.csv") %>% filter(row_number() <= n() - 1)
+
+## clean up the data a bit -----
+
+cntys_min_max <- cntys_min_max_raw %>%
+  dplyr::select(2, 15:18) %>% # keep these fields
+  rename(county_name = COUNTYNAME) %>% # quick rename
+  st_transform("+proj=longlat +datum=WGS84 +ellps=WGS84 +towgs84=0,0,0") %>% 
+  mutate(across(c('min_annual', 'max_annual'), round, 0)) %>%
+  left_join(cntys_ecos_fire_min_acres, by = 'county_name') %>% 
+  mutate_at(vars(5:12), round, 0) %>%
+  replace(is.na(.), 0)
+
+
+## prep color pallet and for popup
+
+pal <- colorBin("OrRd", domain = cntys_min_max$min_annual)
+
+popup <- paste(
+  "<strong>","County Name:","</strong>", cntys_min_max$county_name, "<br>",
+  "<strong>","Minimum Annual Total (acres):","</strong>",  (number_format(big.mark = ",")(cntys_min_max$min_annual)), "<br>",
+  "<strong>","Maximum Annual Total (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$max_annual)), "<br>",
+  "<strong>","Floodplain and Swamp Systems (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$Floodplain.and.Swamp.Systems)), "<br>",
+  "<strong>","Maple Basswood Forest (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$Maple.Basswood.Forest)), "<br>",
+  "<strong>","Mesic Hardwood Forest (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$Mesic.Hardwood.Forest)), "<br>",
+  "<strong>","Oak Forest and Woodland Systems (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$Oak.Forest.and.Woodland.Systems)), "<br>",
+  "<strong>","Oak Savanna (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$Oak.Savanna)), "<br>",
+  "<strong>","Other (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$Other)), "<br>",
+  "<strong>","Prairie Systems (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$Prairie.Systems)), "<br>",
+  "<strong>","Shortleaf Pine Oak Forest and Woodland (acres):", "</strong>", (number_format(big.mark = ",")(cntys_min_max$Shortleaf.Pine.Oak.Forest.and.Woodland))
+  )
+
+
+## make da map -----
+
+map <-
+  leaflet(cntys_min_max) %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  setView(-91.8318334, 38.3289481, zoom = 6.9) %>%  
+  addPolygons(
+    data = cntys_min_max,
+    smoothFactor = 0,
+    fillColor = ~pal(min_annual),
+    fillOpacity = 1, 
+    weight = 0.6,
+    opacity = 0.8,
+    color = "grey",
+    popup = ~popup) %>%
+  addLegend(
+    pal = pal,
+    values = ~min_annual,
+    position = "bottomright",
+    opacity = 1,
+    title = "Minimum Acres </br> per Year") 
+
+map
+```
+
+## Historic Annual Burn Acreage, by Ecosystem
+
+Looking across Missouri, we chart the estimated minimum (yellow dots) and maximum (blue dots) acres that would burn annually with the historical Mean Fire Return Interval (MFRI) values. The green dots represent the acres of ecosystems that would benefit from prescribed prescribed burning, while the purple are what we should aspire to in order to achieve the rates each system is adapted to. As shown here, most of Missouri's ecosystem types would benefit from prescribed burning to support their restoration and longevity.
+
+<br>
+
+```{r dumbbell, message=FALSE, warning=FALSE, echo=FALSE, fig.width=10, fig.height=9}
+
+##  make starter dumbbell plot with min and max annual acres as points, order by mean
+
+#  load packages
+library(tidyverse)
+library(stringr)
+library(scales)
+
+# read in data
+fire_data <- read.csv('data/mfri-evt-mnad.csv') %>%
+  group_by(display_name) %>% 
+  summarize(display_name_min = sum(min.annual.acres),
+            display_name_max = sum(max.annual.acres))
+              
+
+# Initial sort 'fire_data' is your dataset
+fire_data_sorted <- fire_data[order(-fire_data$display_name_min), ]
+
+# Reorder the 'display_name' factor levels based on the sorted data (reverse order)
+fire_data_sorted$display_name <- factor(fire_data_sorted$display_name,
+                                                levels = rev(fire_data_sorted$display_name))
+
+# Create the dumbbell chart with the sorted data
+dumbbell_sorted <-
+  ggplot(fire_data_sorted) +
+  geom_segment(aes(x = display_name_min, xend = display_name_max,
+                   y = display_name, yend = display_name), size = 1.5, color = '#6e6e6e') +
+  geom_point(aes(x = display_name_min, y = display_name), size = 5.5, color = '#edac24') +
+  geom_point(aes(x = display_name_max, y = display_name), size = 5.5, color = '#409dc2') +
+  theme_minimal(base_size = 14) +
+  scale_x_continuous(limits = c(0, 4000000), labels = scales::comma) +
+  labs(
+    x = "Acres",
+    y = "",
+    title = "Range of annual acres needed to maintain ecosystems",
+    subtitle = "Minimum total acres statewide per year = 2,635,008",
+    caption = "Yellow dots = mimimum acres and blue dots = maximum acres"
+  ) +
+  scale_y_discrete(labels = function(x) str_wrap(x, width = 18),
+                   expand = c(0, 0.1)) +
+  theme(plot.subtitle = element_text(margin = margin(0, 10, 20, 0))) 
+  
+
+dumbbell_sorted
+
+
+
+
+```
+
+<br>
+
+![](manon4wheelerControlledburn-edited-Kristen%20Stoyer.jpg){style="float:right; margin-left: 5%; fig-align:left; width:55%;" fig-alt="\"man sits on fourwheeler and drives along edge of a controlled burn in a forest."}
+
+<h4>**Since the beginning of Missouri’s wildfire suppression regime in the early 1900s,** <small class="text-body-secondary">our plant communities and habitat have changed drastically. Forest canopies and midstories have closed, preventing light from reaching the forest floor. Woody vegetation has taken over what were once huge prairies. However, fire can be used not only to reverse these changes, but strengthen remaining habitat, while acting to minimize wildfire risks (Robinson & Doolen, 2023)</small></h4>
+
+<br>
+
+<h4>Keep reading to [find out more about Missouri’s historical fire needs](current.qmd) or, [learn about the benefits of fire on Missouri’s ecosystems!](ecosig.qmd)</h4>

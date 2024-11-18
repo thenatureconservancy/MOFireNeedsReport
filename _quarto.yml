@@ -1,0 +1,42 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    watch-inputs: false
+
+website:
+  title: "Missouri Fire Needs Assessment"
+  page-footer: 
+    right: "For questions or comments about this website please contact Ryan Gauger (https://rswaty.github.io/mofna/)"
+    left: "Funding for this project was provided by the US Forest Service through the National Cohesive Wildland Fire Management Strategy." 
+    border: false
+    background: dark
+  navbar:
+    search: TRUE
+    pinned: true
+    left:
+      - href: index.qmd
+        text: Home
+      - href: current.qmd
+        text: Current Needs
+      - href: historic.qmd
+        text: Historical Fire Regimes
+      - href: ecosig.qmd
+        text: Ecological Significance
+      - href: burning.qmd
+        text: Burning Your Property
+      - href: about.qmd
+        text: About
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+    page-layout: full
+
+editor: source
+
+

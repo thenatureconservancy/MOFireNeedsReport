@@ -1,0 +1,189 @@
+---
+title: "Burning Your Property"
+format: html
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## So you think you want to burn?
+![](firemancontrolledburn-Kristen Stoyer.JPG){style="float:right; margin-left: 5%; fig-align:right; width:45%;" fig-alt="\"fireman walks the edge of an active controlled burn site in a forest."}
+
+
+It's true that wildfire can be devastating for lives and property,
+particularly when it occurs in an unmanaged or overgrown forest.
+However, prescribed fire can also be used to improve the health of your land
+and mitigate the risks of wildfire. Fire can and should be used as
+a management tool for much of Missouri's landscapes due to their
+historical reliance on it. With a carefully considered burn plan,
+prescribed fire becomes an efficient tool to manage farmland, manipulate
+wildlife habitat and restore ecological communities (Robinson and
+Doolen, 2023). 
+
+Controlled burns are safe and an effective management tool when paired with the correct preparation. They usually are conducted with the help of burn plans, careful consideration of weather conditions and using trained crew members and professional
+fire equipment (Missouri CCS, 2022). If you think that fire may be right
+for your land read on!
+
+
+## An Introduction to Controlled Burns for Landowners
+
+Prescribed fire can be a safe and effective tool to manage your
+property. By mimicking natural processes for fire-evolved landscapes,
+landowners can reap a range of benefits, everything from fighting
+invasive plants to boosting biodiversity and reducing risk of wildfires.
+If you’re considering a burn, this guide will help you think through the
+planning, preparation and execution to set you up for success.
+
+### Before the Burn
+
+1.  Call your local [Missouri Department of
+    Conservation](https://mdc.mo.gov/contact-engage/local-mdc-contacts) (MDC)
+    Private Lands Conservationist (PLC). PLCs can talk through your
+    goals for property and help you develop an action plan for how to
+    meet those goals. There are other options for private lands
+    assistance including U.S. Fish and Wildlife, NRCS, and other
+    Non-Governmental Organizations but a PLC is a great starting point
+    and will be able to help you navigate the various programs in
+    Missouri.
+
+2.  Review state and local regulations, including liability under the
+    [Missouri Prescribed Burning Act](Missouri Prescribed Burning Act_Guidance_Staff_FINAL.pdf).
+
+3.  Create a detailed burn plan that covers all aspects of the
+    operation, including how many people you will need, acceptable
+    weather conditions and what to do in case of emergency. MDC,
+    National Resources Conservation Service (NRCS) or a private
+    contractor can help. (More on contractors below.)
+
+### Do It Yourself or Use a Contractor?
+
+An experienced private contractor can handle the entire burn or take on
+specific aspects, such as writing the plan or implementing a plan
+written by MDC or NRCS. The Missouri Prescribed Fire Council has
+compiled a [list of private
+contractors](https://moprescribedfire.org/contractors). The [Missouri
+Consulting Foresters
+Association](https://missouriforesters.com/searchMCFA.php) also
+maintains a list.
+
+If you choose a contractor, ensure that you have a discussion about how
+the liability for your prescribed fire will work. Some contractors
+maintain their own, while others may utilize a different method.
+
+If the contractor writes the burn plan, ensure that they provide you a
+copy and answer any questions you have in advance.
+
+If you are interested conducting the burn yourself, consider the
+following steps:
+
+1.  **Get trained.** Missouri has an online [ training
+    program](https://www.hunter-ed.com/prescribedburn/sign-up/) that
+    covers the basics of burning. You will also be required to attend an
+    in-person fire field day (approximately 4-6 hours) after completing
+    the online training. This field day occurs across the state at
+    [various times of the
+    year.](https://mdc-event-web.s3licensing.com/Event/AllEvents?maxDistance=50&EventTypeId=16&EventTitleId=16214&isVirtualIncluded=True)
+
+2.  **Develop your burn plan.** A good burn plan is essential to your
+    success and the safety of our neighbors and communities. MDC Private
+    Lands Conservationists are a great resource and the place to start
+    that process. PLCs are very busy and burn plans take time to
+    develop. If you are hoping to have help from them to write a burn
+    plan, please reach out to them several months ahead of your desired
+    burn timeline. Again, a private contractor could also help with this
+    step.
+
+3.  **Get experience on other prescribed fires.** There is no
+    substitution for hands-on experience when it comes to fire. One of
+    the best ways to build your skills is to work alongside experienced
+    burners by volunteering on other fires. The Missouri Prescribed Fire
+    Council supports the development of [ Prescribed Burn
+    Associations](https://moprescribedfire.org/pba-locations-contacts)
+    (PBAs) across the state. PBAs are neighbors helping neighbors,
+    ensuring landowners have enough help, resources and expertise to
+    safely accomplish prescribed fires on their land. Helping a neighbor
+    through your local PBA is also a great way to meet the people who
+    can help you when conditions are right to burn your property.
+
+4.  **Develop burn breaks around your intended burn unit.** A good burn
+    break can mean the difference between success and failure. Your burn
+    plan should address appropriate burn break design. A general rule is
+    burn breaks should be 2x wider than anticipated fire height
+    (Anticipated flame heights: Tallgrass = \~20 ft, Shortgrass = \~10
+    ft., Leaf Litter = \~4 ft) If working in forest/woodland settings
+    also pay attention to dead standing trees within 100 ft. of the burn
+    break, they can throw sparks across your burn breaks easily.
+
+### Day of the Burn
+
+1.  **Review your burn plan and then follow it.** Deviating from your
+    plan could invalidate it and leave you open to greater liability.
+    This isn’t the time to wing it!
+
+2.  **Pay attention to the [fire
+    weather](https://www.weather.gov/dlh/fwd) forecast** for the day of
+    your burn but, also for several afterwards. In Missouri, less than
+    2% of prescribed fires escape the intended boundaries. Most of these
+    relatively few escapes don’t occur during the burn operation but, in
+    the days that follow when weather conditions change.
+
+3.  **Check for [drought
+    conditions](https://droughtmonitor.unl.edu/CurrentMap/StateDroughtMonitor.aspx?MO)
+    or county wide burn bans.** Drought conditions may increase your
+    fire behavior substantially.
+
+4.  **Notify your local fire department and/or county dispatch** and
+    neighbors to let them know of your plans to burn.
+
+5.  **Gather your crew and equipment**. Many PBAs have equipment
+    trailers they can loan you for your burn. Really think about what
+    you need to pull off a burn, including anything you would need if the
+    fire escapes its boundaries. It is also worth talking to your PLC to
+    see if there is other equipment available for you to borrow.
+
+6.  **Ask yourself the following:**
+
+    -   Is the forecasted weather within the burn plan’s parameters and
+        does it match what you are seeing on site?
+
+    -   Have you reviewed your burn plan and thought through the
+        sequence of events with the crew before the burn?
+
+    -   Do you have as many people as your burn plan requires? Are they
+        an experienced crew or new to fire?
+
+    -   Do you have the required equipment and have you tested it to
+        make sure it functions well?
+
+    -   Do you have some way to get water out on the burn unit? Will you
+        transport it by UTV, ATV, truck, trailer, and/or backpack water
+        pump?
+
+    -   Do you have a good way to communicate (i.e., good cell service
+        or handheld two-way radios)? Have you tested your communication
+        method before the fire?
+
+7.  **Know your limits and accept when it’s just not your day to burn!**
+    It is natural to be a little nervous before burning your property
+    and/or participating in someone else’s fire operation. Preparation
+    is everything, make sure you take the responsibilities laid out
+    above seriously. The implementation of a burn is relatively short
+    compared to the effort it takes to set yourself and your crew up for
+    a successful burn.
+
+### After the Burn
+
+1.  Call back the fire department or county dispatch and let them know
+    when your burn is complete.
+
+2.  Follow your plan for monitoring burned areas and keep an eye on
+    shifting weather conditions, such increasing winds or low relative
+    humidities.
+
+3.  [**Log your burn**](https://moprescribedfire.org/log-your-burn)**.**
+    Help us track prescribed fire across the state by your fire
+    accomplishments. The information lets us track how much good fire is
+    hitting the ground and tells us if we are moving in the right
+    direction across the state. It also helps us identify where and how
+    we can help other landowners get the help they need to use fire on
+    their property.

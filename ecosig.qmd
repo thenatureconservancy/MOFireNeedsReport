@@ -1,0 +1,61 @@
+---
+title: "Ecological Significance"
+format: html
+editor: 
+  markdown: 
+    wrap: sentence
+---
+
+![](WOPA051011_D023_Bill%20Wallace.d20121003-u191447.jpg){fig-alt="\"Image of a Missouri prairie. A vast landscape with yellow rolling hills and a bright blue sky."}
+
+<figure class="text-center">
+
+```{=html}
+<blockquote class="blockquote",  border="none">
+
+<p class="mb-0">
+
+“Many…plant species and significant numbers of animal species…greatly benefit from prescribed fire.
+Without it, many imperiled species and communities of conservation concern would decline and diminish.” (Missouri CCS, 2022, p.153).
+
+</p>
+
+</blockquote>
+```
+</figure>
+
+## Whats at Stake
+
+Most of Missouri’s ecosystems have evolved to rely on fire, meaning that today, not only is prescribed fire beneficial, it is crucial for the continued functioning of Missouri's ecosystems.
+Fire has always been a reliable sign of human presence, meaning the fires that shaped Missouri cannot occur without our assistance.
+
+There are numerous benefits of prescribed fire for all residents of Missouri, human and animal alike.
+Prescribed fire can be used to:
+
+-   Reduce tick populations which have flourished under the status quo of fire suppression (Gallagher, et.al., 2022).
+
+-   Manage invasive plant species like fescue (Missouri CCS, 2022).
+
+-   Increase the amount of carbon ecological communities are able to store (Missouri CCS, 2022).
+
+![](ENPO190702_D042_full.jpg){style="float:right ; margin-left: 2%; fig-align:right; width:43%;" fig-alt="\"picture description."}
+
+-   Improve and increase game animal habitat.
+
+    -   [Learn about how bobwhite quail rely on fire.](https://quailforever.org/BlogLanding/Blogs/Quail-Forever/Fall-Burning-for-Bobwhites.aspx#:~:text=Prescribed%20fire%20in%20the%20fall%20allows%20native%20plants%20to%20thrive,quail%20and%20many%20other%20wildlife!)
+
+    -   [Find out how fire compares to other deer habitat management techniques.](https://deerassociation.com/food-plots-feed-or-fire-the-real-costs-per-pound-of-deer-forage/)
+
+    -   [Learn more about the relationship of turkey habitat and fire.](https://www.nwtf.org/content-hub/a-time-to-burn)
+
+-   Improve water and soil quality (Missouri CCS, 2022).
+
+-   Protect endangered ecosystems like Missouri's tall grass prairies (Missouri CCS, 2022).
+
+-   Stimulate oak and shortleaf pine regeneration (Robinson & Doolen, 2023; Missouri CCS, 2022).
+
+-   And more!
+
+If we want to protect the environments that make Missouri unique and rebuild those that are declining, we need to work together to create a legacy of stewardship that endorses a long-term view of conservation as landowners, conservationists and policy makers.
+
+![](Untitled%20presentation.jpg){fig-alt="\"series of 3 images, one of a deer, and two of missouri prairies."}

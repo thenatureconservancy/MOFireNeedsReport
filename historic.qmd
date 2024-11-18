@@ -1,0 +1,93 @@
+---
+title: "Historical Fire Regimes"
+fomat: html
+---
+
+## Role of Fire In Missouri
+
+![](assets/mfri2.jpg){style="float:right; margin-left: 5%; fig-align:right; width:50%;" fig-alt="\"Historical ecosystems map of a large region in the western United States."}
+
+**Historically, most of Missouri has had fire regularly moving across its landscape–** much of it seeing multiple fires within a 10 year period as seen in the map to the right. While this is not a prescription for what should happen today, the past provides important context and acts as a guide for assessing our current needs.
+
+Recent research has found that until 100 years ago fire was used extensively as a landscape management tool, shaping much of Missouri’s natural environments (Vaughn, 2024). Prior to European settlement, Native Americans transformed the ecosystems around them to suit their survival needs using wide-scale burning, agriculture, hunting, and more. In fact, according to the Missouri Comprehensive Conservation Strategy report;
+
+> “it is estimated that humans have utilized fire for more that 70 different purposes such as to clear the landscape to plant crops, as a weapon against enemies, as a hunting tool, and as a tool to improve grazing for big game.” (Missouri CCS, 2022, p. 144)
+
+**Beyond the benefit to Missouri’s human population,** the wide-scale use of fire provided many benefits for Missouri’s flora and fauna. It improved wildlife habitats and hunting conditions, as well produced a region of varied and abundant prairie, glade, savanna, woodland and forest communities.
+
+{{< downloadthis assets/mfri2.jpg dname="MFRI_Map" label="Download the Historical Mean Fire Return Interval Map. " icon="database-fill-down" type="info" >}}
+
+<br>
+
+## Historic Burn Patterns
+
+**In the past, every ecosystem would have had its own Mean Fire Return Interval (MFRI), and extent.** The chart below shows just how much variety in historical annual acres burned there was depending on ecosystem type as well as how extensively fire would affect them per year. Today, only an estimated 125,000-150,000 acres *total* are burned per year. In comparison, over 2 million acres of prairie systems alone would have burned prior to European settlement.
+
+```{r fire bar, echo=FALSE, message=FALSE, warning=FALSE, fig.width=10, fig.height=7}
+
+library(tidyverse)
+library(scales)
+library(stringr)
+
+
+# read bps attribute table .csv and summarize.  Randy Swaty added a "display_name" field to use in charts.  These names match those in the BpS map, and were 'manually' created by Randy.
+
+bps_data <- read.csv("data/bps_aoi_attributes.csv") 
+
+fire_data <- bps_data %>%
+  drop_na(FRI_ALLFIR) %>%
+  group_by(display_name) %>%
+  mutate(display_mfri = (mean(FRI_ALLFIR))) %>%
+  mutate(display_acres = sum(ACRES)) %>%
+  mutate(display_percent = sum(REL_PERCENT)) %>%
+  mutate(display_fire_acres = ((1/display_mfri)*display_acres)) %>%
+  filter(display_name != 'Other')  %>%
+  arrange(desc(display_fire_acres))
+ 
+fire_chart_data <- fire_data %>%
+  group_by(display_name) %>%
+  summarize(acres = mean(ACRES)) %>%
+  arrange(desc(acres))
+
+# plot
+fireChart <- 
+  ggplot(data = fire_chart_data, aes(x = reorder(display_name, acres), y = acres, fill = display_name)) +
+  geom_bar(stat = "identity", alpha = 0.8) +
+  labs(
+    title = "Estimated annual acres burned per ecosystem prior to European colonization",
+    subtitle = "All fire types included: Surface (0-25% top-kill), Mixed (26-75%), and Replacement (76-100%)." ,
+    caption = "Data from landfire.gov.",
+    x = "",
+    y = "Acres") +
+  scale_y_continuous(name = 'Acres', labels = comma) +
+  coord_flip() +
+  theme_bw(base_size = 14) +
+  theme(plot.caption = element_text(hjust = 0, face = "italic"),
+        plot.title.position = "plot", 
+        plot.caption.position =  "plot") +
+  scale_fill_manual(values = c("Oak Savanna" = "#665ee1",
+                               "Oak Forest and Woodland Systems" = "#93b371",
+                               "Prairie Systems" = "#fffb7f",
+                               "Maple-Basswood Forest" = "#22331f",
+                               "Shortleaf Pine-Oak Forest and Woodland" = "#d74d51",
+                               "Floodplain and Swamp Systems" = "#3d6c6f",
+                               "Mesic Hardwood Forest" = "#ff01cc")) +
+  theme(legend.position = 'none')
+
+
+
+fireChart
+
+```
+
+<br>
+
+![](OzarksPhoto.jpg){style="float:left; margin-right: 5%; fig-align:right; width:60%;" fig-alt="\"image descriptiion."}
+
+<h4>**Since Missouri’s policies and practices of wildfire suppression were implemented in the early 1900s,** <small class="text-body-secondary">our plant communities and habitat have changed drastically. Forest canopies and midstories have closed, preventing light from reaching the forest floor. Woody vegetation has taken over what were once huge prairies. The photograph to the left is a great example of what shortleaf pine forests would have looked like prior to fire suppression. It was taken in the early 1900's in the historic pineries of SE Missouri. Shortleaf pine was the dominant species in the region, allowing an incredibly diverse understory to flourish. Now, however, these forests are composed of different species that grow in ways that prevent sunlight from reaching the forest floor, suppressing native grasses and forbs. Fire has the potential to not only to reverse these changes, but strengthen remaining forests (Robinson & Doolen, 2023).</small></h4>
+
+<h4>
+
+Keep reading to [find out more about Missouri’s current fire needs](current.qmd) or, [learn about the benefits of fire on Missouri’s ecosystems!](ecosig.qmd)
+
+<h4>

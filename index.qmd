@@ -1,0 +1,72 @@
+---
+title: "Missouri Fire Needs Assessment"
+format: html
+---
+
+## Why Fire?
+
+**Fire has been a critical force in Missouri’s landscape for millennia–** creating, shaping, and manipulating an environment that now depends on it. Fire is necessary for the health of many ecosystems that make Missouri unique. However, for the past 50+ years, our state has engaged in a very effective fire prevention and suppression program which has significantly altered the structure, diversity, and function of many of Missouri’s ecological communities (Missouri CCS, 2022).
+
+![](assets/bps.jpg){style="float:right; margin-left: 5%; fig-align:right; width:45%;" fig-alt="\"Historical ecosystems map of a large region in the western United States."}
+
+Throughout the United States, ecologists, land managers and owners have begun to recognize fire’s importance. Many states now use prescribed fire as a management tool that can effectively and affordably accomplish a variety of land management goals, like reducing fuel loads to reduce wildfire intensity, restoring native plant communities and improving animal habitats (Missouri CCS, 2022).
+
+**Missouri was once dominated by fire adapted ecosystems** which would have experienced a fire every 2 - 20 years. The map to the right shows Missouri’s past ecological layout, prior to European settlement. Each of the different ecosystems represented would have experienced fire at different frequencies, but almost all experienced regular fires,sometimes from natural disturbances, like lightning, but primarily from human intervention.
+
+<br>
+
+![](2firefightersonburnedge-edited-Kristen%20Stoyer.jpg){style="float:left; margin-right: 5%; fig-align:left; width:45%;" fig-alt="\"Two firefighters walk along a wall of smoke, setting a low fire behind them."}
+
+In 2023, conservationists and ecologists collaborated to estimate how often fire should visit today's various ecosystems based on past frequencies as part of a statewide Fire Needs Assessment. The assessment helped us determine how much prescribed burning should be done in Missouri, and where. We found that burning a minimum of **2,635,008 acres per year** is necessary to replicate the historical occurrences of fire that much of Missouri's landscape is adapted to.
+
+**This report presents the findings of this assessment** and displays the urgent need for increased prescribed fire in Missouri. The state is currently burning an estimated 125,000-150,000 acres per year, a dramatic shortfall that requires urgent and concerted efforts to close the gap. We hope that this report will show the benefits of fire and encourage readers to explore prescribed burning across Missouri for the benefit of nature and our working lands. This assessment is intended for use by private landowners and conservation professionals alike who are committed to the return of good fire practices across Missouri.
+
+<br>
+
+## In This Report
+
+:::::: columns
+::: {.column width="45%"}
+## [Current Needs](current.qmd)
+
+This assessment finds that we need to be burning **2,635,008 acres per year** at the minimum in order to replicate historical patterns. Based on current self reporting by conservation professionals and private landowners we estimate that only 125,000 and 150,000 acres are actually burned utilizing prescribed fire in Missouri each year. [Learn more about our current fire needs in Missouri.](current.qmd)
+
+## [About this Report](about.qmd)
+
+This report is the result of efforts by The Nature Conservancy, and its partners in Missouri, to gather and present data that shows how many acres Missouri should be burning and where. [Learn more about our website, the fire needs assessment and input datasets.](about.qmd)
+
+## [Burning Your Property](burning.qmd)
+
+If you think prescribed burning is a tool you'd like to implement [find out more here.](burning.qmd)
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+## [Historical Fire Regimes](historic.qmd)
+
+Prior to European settlement, Native Americans transformed the ecosystems around them to suit their survival needs using wide-scale burning, agriculture, hunting and more. In Missouri, the use of burning was especially prevalent, creating ecosystems that now rely on regular fires. [Learn more about how fire was used in the past.](historic.qmd)
+
+## [Ecological Significance](ecosig.qmd)
+
+Fire has numerous benefits for both humans and wildlife alike. It keeps tick populations and invasive species in check while also restoring habitat for game animals like deer and turkey. Additionally, it manages forest fuel loads, minimizing the risk of catastrophic wildfires. [Learn more here.](ecosig.qmd)
+
+![](Kristen%20Stoyer-ControlledBurn.JPG){fig-alt="\"image of a forest bathed in grey-blue smoke from a recent controlled burn."}
+:::
+::::::
+
+<br>
+
+## Further Resources
+
+[Prescribed Fire \| Missouri Department of Conservation](https://mdc.mo.gov/your-property/fire-management/prescribed-fire)
+
+[Fire Management \| Missouri Department of Conservation](https://mdc.mo.gov/your-property/fire-management)
+
+[Fire in the Ozarks](https://oakfirescience.com/fire-in-the-ozarks/)
+
+[Missouri Comprehensive Conservation Strategy - Tiered Approach to Natural Community and Habitat Management](https://mdcgis.maps.arcgis.com/apps/webappviewer/index.html?id=6c7434bc026c469da59fe90889b37095)
+
+[Missouri Prescribed Burning Act](Missouri%20Prescribed%20Burning%20Act_Guidance_Staff_FINAL.pdf)

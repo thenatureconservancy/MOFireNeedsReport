@@ -1,0 +1,121 @@
+,TransitionGroupID,Model_Code,annual_probability,BpS_Name,...1,BLUE,ACRES,REL_PERCENT,annual_dist_acres
+26,All Fire,13640_32_44_49,0.2045578,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,1467879.362
+99,All Transitions,13640_32_44_49,0.3011134,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,2160749.409
+166,Alternative Succession,13640_32_44_49,0.012433,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,89217.54198
+239,Mixed Fire,13640_32_44_49,0.0112588,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,80791.64012
+275,Native Grazing,13640_32_44_49,0.080619,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,578511.1411
+309,Non Fire Disturbances,13640_32_44_49,0.0841226,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,603652.5052
+382,Non Replacement Fire,13640_32_44_49,0.17781,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,1275940.733
+485,Replacement Fire,13640_32_44_49,0.0267478,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,191938.6286
+556,Surface Fire,13640_32_44_49,0.1665512,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,1195149.093
+617,Wind or Weather or Stress,13640_32_44_49,0.0035036,Ozark-Ouachita Dry Oak Woodland,1,0,7175866,16.1,25141.36412
+41,All Fire,14210_31_38_42_43_44_50_51,0.2824352,Central Tallgrass Prairie,2,0.768627451,6232975,14,1760411.541
+114,All Transitions,14210_31_38_42_43_44_50_51,0.3125626,Central Tallgrass Prairie,2,0.768627451,6232975,14,1948194.872
+180,Alternative Succession,14210_31_38_42_43_44_50_51,0.0058724,Central Tallgrass Prairie,2,0.768627451,6232975,14,36602.52239
+323,Non Fire Disturbances,14210_31_38_42_43_44_50_51,0.024255,Central Tallgrass Prairie,2,0.768627451,6232975,14,151180.8086
+500,Replacement Fire,14210_31_38_42_43_44_50_51,0.2824352,Central Tallgrass Prairie,2,0.768627451,6232975,14,1760411.541
+630,Wind or Weather or Stress,14210_31_38_42_43_44_50_51,0.024255,Central Tallgrass Prairie,2,0.768627451,6232975,14,151180.8086
+31,All Fire,13940_44_49,0.1942196,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,864283.6292
+104,All Transitions,13940_44_49,0.197266,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,877840.2098
+171,Alternative Succession,13940_44_49,0.0010606,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,4719.705
+244,Mixed Fire,13940_44_49,0.0053112,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,23635.01527
+277,Native Grazing,13940_44_49,0.0009966,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,4434.902888
+314,Non Fire Disturbances,13940_44_49,0.0019858,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,8836.875531
+387,Non Replacement Fire,13940_44_49,0.1924298,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,856318.9602
+490,Replacement Fire,13940_44_49,0.0017898,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,7964.669063
+561,Surface Fire,13940_44_49,0.1871186,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,832683.9449
+622,Wind or Weather or Stress,13940_44_49,0.0009892,North-Central Interior Oak Savanna,3,0.541176471,4450033,10,4401.972644
+1,All Fire,13040_32_43_44_49,0.085975,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,278185.1807
+15,All Fire,13140_38_39_40_41_42_43_44_50,0.0021822,North-Central Interior Maple-Basswood Forest,4,0.4,3272875,7.3,7142.067825
+74,All Transitions,13040_32_43_44_49,0.1022102,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,330716.6381
+88,All Transitions,13140_38_39_40_41_42_43_44_50,0.142462,North-Central Interior Maple-Basswood Forest,4,0.4,3272875,7.3,466260.3183
+150,Alternative Succession,13040_32_43_44_49,0.0125246,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,40525.24704
+217,Mixed Fire,13040_32_43_44_49,0.0148922,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,48185.97671
+284,Non Fire Disturbances,13040_32_43_44_49,0.0037106,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,12006.21031
+298,Non Fire Disturbances,13140_38_39_40_41_42_43_44_50,0.1402798,North-Central Interior Maple-Basswood Forest,4,0.4,3272875,7.3,459118.2504
+357,Non Replacement Fire,13040_32_43_44_49,0.0807844,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,261390.2054
+371,Non Replacement Fire,13140_38_39_40_41_42_43_44_50,0.0011924,North-Central Interior Maple-Basswood Forest,4,0.4,3272875,7.3,3902.57615
+460,Replacement Fire,13040_32_43_44_49,0.0051906,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,16794.97527
+474,Replacement Fire,13140_38_39_40_41_42_43_44_50,0.0009898,North-Central Interior Maple-Basswood Forest,4,0.4,3272875,7.3,3239.491675
+531,Surface Fire,13040_32_43_44_49,0.0658922,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,213204.2287
+545,Surface Fire,13140_38_39_40_41_42_43_44_50,0.0011924,North-Central Interior Maple-Basswood Forest,4,0.4,3272875,7.3,3902.57615
+592,Wind or Weather or Stress,13040_32_43_44_49,0.0037106,Ozark-Ouachita Dry-Mesic Oak Forest,5,0,3235652,7.3,12006.21031
+606,Wind or Weather or Stress,13140_38_39_40_41_42_43_44_50,0.1402798,North-Central Interior Maple-Basswood Forest,4,0.4,3272875,7.3,459118.2504
+12,All Fire,13110_44,0.071516,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,222716.0569
+85,All Transitions,13110_44,0.0819856,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,255320.6213
+158,Alternative Succession,13110_44,0.002585,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,8050.240605
+228,Mixed Fire,13110_44,0.0101604,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,31641.64977
+272,Native Grazing,13110_44,0.0065194,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,20302.80023
+295,Non Fire Disturbances,13110_44,0.0078846,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,24554.32382
+368,Non Replacement Fire,13110_44,0.0620066,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,193101.7598
+471,Replacement Fire,13110_44,0.0095094,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,29614.2971
+542,Surface Fire,13110_44,0.0518462,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,161460.11
+603,Wind or Weather or Stress,13110_44,0.0013652,North-Central Interior Dry Oak Forest and Woodland,6,0.560784314,3114213,7,4251.523588
+127,All Transitions,14710_42_43,0.0270174,Central Interior and Appalachian Floodplain Systems,7,0.690196078,1666972,3.7,45037.24931
+336,Non Fire Disturbances,14710_42_43,0.0270174,Central Interior and Appalachian Floodplain Systems,7,0.690196078,1666972,3.7,45037.24931
+422,Optional 1,14710_42_43,0.0099226,Central Interior and Appalachian Floodplain Systems,7,0.690196078,1666972,3.7,16540.69637
+437,Optional 2,14710_42_43,0.0170948,Central Interior and Appalachian Floodplain Systems,7,0.690196078,1666972,3.7,28496.55295
+448,Optional Types,14710_42_43,0.0270174,Central Interior and Appalachian Floodplain Systems,7,0.690196078,1666972,3.7,45037.24931
+7,All Fire,13100_38_42_43,0.0408348,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,62555.93266
+46,All Fire,14230_43_44,0.6036482,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,910052.7825
+47,All Fire,14230_43_44,0.6036482,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,925195.9013
+80,All Transitions,13100_38_42_43,0.043113,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,66045.96875
+119,All Transitions,14230_43_44,0.6136114,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,925073.1833
+120,All Transitions,14230_43_44,0.6136114,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,940466.2389
+185,Alternative Succession,14230_43_44,0.0099414,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,14987.53534
+186,Alternative Succession,14230_43_44,0.0099414,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,15236.9253
+223,Mixed Fire,13100_38_42_43,0.019908,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,30497.60272
+251,Mixed Fire,14230_43_44,0.0124622,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,18787.86317
+252,Mixed Fire,14230_43_44,0.0124622,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,19100.48992
+267,Native Grazing,13100_38_42_43,0.0014228,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,2179.625736
+290,Non Fire Disturbances,13100_38_42_43,0.0022782,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,3490.036091
+328,Non Fire Disturbances,14230_43_44,2.18E-05,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,32.8654184
+329,Non Fire Disturbances,14230_43_44,2.18E-05,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,33.4122932
+363,Non Replacement Fire,13100_38_42_43,0.0328918,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,50387.8365
+396,Non Replacement Fire,14230_43_44,0.014484,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,21835.90459
+397,Non Replacement Fire,14230_43_44,0.014484,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,22199.25022
+466,Replacement Fire,13100_38_42_43,0.007943,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,12168.09616
+505,Replacement Fire,14230_43_44,0.5891642,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,888216.8779
+506,Replacement Fire,14230_43_44,0.5891642,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,902996.6511
+537,Surface Fire,13100_38_42_43,0.0129838,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,19890.23378
+570,Surface Fire,14230_43_44,0.0020218,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,3048.041418
+571,Surface Fire,14230_43_44,0.0020218,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,3098.760293
+598,Wind or Weather or Stress,13100_38_42_43,0.0008554,North-Central Interior Dry-Mesic Oak Forest and Woodland,8,0.870588235,1531927,3.4,1310.410356
+635,Wind or Weather or Stress,14230_43_44,2.18E-05,Southeastern Great Plains Tallgrass Prairie,9,0.470588235,1507588,3.4,32.8654184
+636,Wind or Weather or Stress,14230_43_44,2.18E-05,Southeastern Great Plains Tallgrass Prairie,10,0.470588235,1532674,3.4,33.4122932
+60,All Fire,14730_45_46_47_98_99,0.018745,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,27669.8694
+136,All Transitions,14730_45_46_47_98_99,0.0293092,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,43263.8963
+211,Insect or Disease,14730_45_46_47_98_99,0.0021508,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,3174.838896
+345,Non Fire Disturbances,14730_45_46_47_98_99,0.0105642,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,15594.0269
+410,Non Replacement Fire,14730_45_46_47_98_99,0.0100152,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,14783.63702
+431,Optional 1,14730_45_46_47_98_99,0.005294,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,7814.57928
+457,Optional Types,14730_45_46_47_98_99,0.005294,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,7814.57928
+518,Replacement Fire,14730_45_46_47_98_99,0.0087298,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,12886.23238
+584,Surface Fire,14730_45_46_47_98_99,0.0100152,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,14783.63702
+648,Wind or Weather or Stress,14730_45_46_47_98_99,0.0031194,Gulf and Atlantic Coastal Plain Floodplain Systems,11,0.803921569,1476120,3.3,4604.608728
+28,All Fire,13670_32_44,0.2153964,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,287717.2491
+101,All Transitions,13670_32_44,0.2352692,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,314262.4808
+168,Alternative Succession,13670_32_44,0.0118856,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,15876.2734
+200,Competition or Maintenance,13670_32_44,0.0024052,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,3212.762736
+204,Insect or Disease,13670_32_44,0.0020992,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,2804.021094
+241,Mixed Fire,13670_32_44,0.0108832,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,14537.31058
+311,Non Fire Disturbances,13670_32_44,0.0079872,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,10668.95831
+384,Non Replacement Fire,13670_32_44,0.2125052,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,283855.3084
+487,Replacement Fire,13670_32_44,0.0028912,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,3861.940638
+558,Surface Fire,13670_32_44,0.201622,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,269317.9979
+619,Wind or Weather or Stress,13670_32_44,0.0034828,Ozark-Ouachita Shortleaf Pine-Oak Forest and Woodland,12,0.392156863,1335757,3,4652.17448
+42,All Fire,14210_31_38_42_43_44_50_51,0.2824352,Central Tallgrass Prairie,13,0.768627451,961748,2.2,271631.4887
+115,All Transitions,14210_31_38_42_43_44_50_51,0.3125626,Central Tallgrass Prairie,13,0.768627451,961748,2.2,300606.4554
+181,Alternative Succession,14210_31_38_42_43_44_50_51,0.0058724,Central Tallgrass Prairie,13,0.768627451,961748,2.2,5647.768955
+324,Non Fire Disturbances,14210_31_38_42_43_44_50_51,0.024255,Central Tallgrass Prairie,13,0.768627451,961748,2.2,23327.19774
+501,Replacement Fire,14210_31_38_42_43_44_50_51,0.2824352,Central Tallgrass Prairie,13,0.768627451,961748,2.2,271631.4887
+631,Wind or Weather or Stress,14210_31_38_42_43_44_50_51,0.024255,Central Tallgrass Prairie,13,0.768627451,961748,2.2,23327.19774
+9,All Fire,13100_44_50,0.041736,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,31373.03467
+82,All Transitions,13100_44_50,0.0440268,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,33095.03361
+225,Mixed Fire,13100_44_50,0.0202956,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,15256.24311
+269,Native Grazing,13100_44_50,0.0014376,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,1080.646795
+292,Non Fire Disturbances,13100_44_50,0.0022908,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,1721.998942
+365,Non Replacement Fire,13100_44_50,0.0335714,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,25235.68852
+468,Replacement Fire,13100_44_50,0.0081646,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,6137.346149
+539,Surface Fire,13100_44_50,0.0132758,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,9979.445412
+600,Wind or Weather or Stress,13100_44_50,0.0008532,North-Central Interior Dry-Mesic Oak Forest and Woodland,14,0.870588235,751702,1.7,641.3521464

@@ -102,7 +102,7 @@ map
 
 ## Historic Annual Burn Acreage, by Ecosystem
 
-Looking across Missouri, we chart the estimated minimum (yellow dots) and maximum (blue dots) acres that would burn annually with the historical Mean Fire Return Interval (MFRI) values. The green dots represent the acres of ecosystems that would benefit from prescribed prescribed burning, while the purple are what we should aspire to in order to achieve the rates each system is adapted to. As shown here, most of Missouri's ecosystem types would benefit from prescribed burning to support their restoration and longevity.
+Looking across Missouri, we chart the estimated minimum (yellow dots) and maximum (blue dots) acres that would burn annually with the historical Mean Fire Return Interval (MFRI) values. The yellow dots represent the acres of ecosystems that would benefit from prescribed burning, while the purple are what we should aspire to in order to achieve the rates each system is adapted to. As shown here, most of Missouri's ecosystem types would benefit from prescribed burning to support their restoration and longevity.
 
 <br>
 

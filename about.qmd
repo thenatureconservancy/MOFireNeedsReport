@@ -89,7 +89,9 @@ Conservation success that is widespread and sustainable relies on partner and la
 
 ::: columns
 ::: {.column width="30%"}
-[![](PFC%20-%20Final%20-%20medium%20border.png)](https://moprescribedfire.org/){target='none'} 
+
+[![](assets/LANDFIRE_Logo.png)](https://landfire.gov/)
+
 
 [![](tallgrass-prairie-oak-savannah-fsc-color-redraw-stacked.png)](http://www.tposfirescience.org/){target='none'} 
 :::
@@ -110,8 +112,12 @@ Conservation success that is widespread and sustainable relies on partner and la
 
 ::: {.column width="30%"}
 [![](assets/fln_logo.jpg)](https://firenetworks.org/fln/){target='none'} 
+
+[![](PFC%20-%20Final%20-%20medium%20border.png)](https://moprescribedfire.org/){target='none'} 
 :::
 :::
+
+
 
 ## Sources
 

@@ -161,7 +161,7 @@ dumbbell_sorted
 
 ![](manon4wheelerControlledburn-edited-Kristen%20Stoyer.jpg){style="float:right; margin-left: 5%; fig-align:left; width:55%;" fig-alt="\"man sits on fourwheeler and drives along edge of a controlled burn in a forest."}
 
-<h4>**Since the beginning of Missouri’s wildfire suppression regime in the early 1900s,** <small class="text-body-secondary">our plant communities and habitat have changed drastically. Forest canopies and midstories have closed, preventing light from reaching the forest floor. Woody vegetation has taken over what were once huge prairies. However, fire can be used not only to reverse these changes, but strengthen remaining habitat, while acting to minimize wildfire risks (Robinson & Doolen, 2023)</small></h4>
+<h4>**Since the beginning of Missouri’s wildfire suppression regime in the early 1900s,** <small class="text-body-secondary">our plant communities and habitat have changed drastically. Forest canopies and midstories have closed, preventing light from reaching the forest floor. Woody vegetation has taken over what were once huge prairies. However, fire can be used not only to reverse these changes, but strengthen remaining habitat, while acting to minimize wildfire risks (Robinson & Doolen, 2023).</small></h4>
 
 <br>
 

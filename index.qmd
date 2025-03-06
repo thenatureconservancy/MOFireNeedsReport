@@ -11,7 +11,7 @@ format: html
 
 Throughout the United States, ecologists, land managers and owners have begun to recognize fire’s importance. Many states now use prescribed fire as a management tool that can effectively and affordably accomplish a variety of land management goals, like reducing fuel loads to reduce wildfire intensity, restoring native plant communities and improving animal habitats (Missouri CCS, 2022).
 
-**Missouri was once dominated by fire adapted ecosystems** which would have experienced a fire every 2 - 20 years. The map to the right shows Missouri’s past ecological layout, prior to European settlement. Each of the different ecosystems represented would have experienced fire at different frequencies, but almost all experienced regular fires,sometimes from natural disturbances, like lightning, but primarily from human intervention.
+**Missouri was once dominated by fire adapted ecosystems** which would have experienced a fire every 2 - 20 years (based on expert opinion and [LANDFIRE](https://landfire.gov/) data.  See [About](about.qmd) page.). The map to the right shows Missouri’s past ecological layout, prior to European settlement. Each of the different ecosystems represented would have experienced fire at different frequencies, but almost all experienced regular fires,sometimes from natural disturbances, like lightning, but primarily from human intervention.
 
 <br>
 

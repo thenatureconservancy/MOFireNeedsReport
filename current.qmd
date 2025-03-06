@@ -11,7 +11,7 @@ Prescribed fire has many benefits for landowners and conservationists, like pres
 
 ## Ideal annual acres of fire per county
 
-**Below we present the ideal number of acres of fire each year from the Missouri Department of Conservation (MDC)** for the remaining non-agricultural, undeveloped lands in Missouri. To do this, we first tallied the amount of land covered by each ecosystem per county, then multiplied by the minimum and maximum probability it would burn in any one year. These estimates were totaled per county for the map below. The map depicts these very conservative estimates of the minimum and maximum values. You can click on each county to see the minimum and maximum acreage that should be burned in that county.
+**Below we present the ideal number of acres of fire each year from the Missouri Department of Conservation (MDC)** for the remaining non-agricultural, undeveloped lands in Missouri. To do this, we first tallied the amount of land covered by each ecosystem per county, then multiplied by the minimum and maximum probability it would burn in any one year (land amounts from LANDFIRE's [Existing Vegetation Type](https://landfire.gov/vegetation/evt) data. See [About](about.qmd) page.). These estimates were totaled per county for the map below. The map depicts these very conservative estimates of the minimum and maximum values. You can click on each county to see the minimum and maximum acreage that should be burned in that county.
 
 Example calculation for a 1,000 acre ecosystem with a 5 year minimum Mean Fire Return Interval (MFRI):
 

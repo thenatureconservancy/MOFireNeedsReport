@@ -7,7 +7,7 @@ fomat: html
 
 ![](assets/mfri2.jpg){style="float:right; margin-left: 5%; fig-align:right; width:50%;" fig-alt="\"Historical ecosystems map of a large region in the western United States."}
 
-**Historically, most of Missouri has had fire regularly moving across its landscape–** much of it seeing multiple fires within a 10 year period as seen in the map to the right. While this is not a prescription for what should happen today, the past provides important context and acts as a guide for assessing our current needs.
+**Historically, most of Missouri has had fire regularly moving across its landscape–** much of it seeing multiple fires within a 10 year period as seen in the map to the right created with LANDFIRE's [Biophysical Settings](https://landfire.gov/vegetation/bps) data (See [About](about.qmd) page.). While this is not a prescription for what should happen today, the past provides important context and acts as a guide for assessing our current needs.
 
 Recent research has found that until 100 years ago fire was used extensively as a landscape management tool, shaping much of Missouri’s natural environments (Vaughn, 2024). Prior to European settlement, Native Americans transformed the ecosystems around them to suit their survival needs using wide-scale burning, agriculture, hunting, and more. In fact, according to the Missouri Comprehensive Conservation Strategy report;
 

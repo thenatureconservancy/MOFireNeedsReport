@@ -55,7 +55,7 @@ fireChart <-
   geom_bar(stat = "identity", alpha = 0.8) +
   labs(
     title = "Estimated annual acres burned per ecosystem prior to European colonization",
-    subtitle = "All fire types included: Surface (0-25% top-kill), Mixed (26-75%), and Replacement (76-100%)." ,
+    subtitle = "" ,
     caption = "Data from landfire.gov.",
     x = "",
     y = "Acres") +
